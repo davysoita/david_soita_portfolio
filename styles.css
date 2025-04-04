@@ -1,4 +1,10 @@
-/* Basic Reset */
+bachground-color: #f4f4f4; /* Light background color for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background color for the body */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Line height for better readability */
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,24 +13,27 @@
 
 /* Style the Navigation Bar */
 nav {
-    background-color: #333;
+    background-color: #2513ca;
     padding: 10px;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(110, 63, 63);
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;   
     font-size: 18px;
     padding: 10px 15px;
     transition: 0.3s;
@@ -34,4 +43,31 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
+}
+footer{
+    background-color: #2513ca;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+table{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px; 
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #2513ca;
+    color: white;
 }
